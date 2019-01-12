@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emoji Show Increment & Decrement</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="head-page">
+        <h3 class="title-head">Emoji Show Increment & Decrement</h3>
+    </div>
+
+    <div class="content-page">
+        <div class="content-box">
+            <div class="content-head">
+                <select name="type" id="type-show">
+                    <option value="">Select Type</option>
+                    <option value="1">Increment</option>
+                    <option value="2">Decrement</option>
+                </select>
+                <input type="number" id="input-length" placeholder="Enter number length...">
+                <button id="btn-submit" onclick="submit()">Submit</button>
+            </div>
+            <div class="content-body" id="content">
+                <table id="emoji-table"></table>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-page">
+        <small>Created by syarifuddinahmads</small>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
